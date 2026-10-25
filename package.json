@@ -5,9 +5,10 @@
   "type": "module",
   "description": "Plataforma de búsqueda y solicitud de productos internacionales (solo frontend).",
   "scripts": {
-    "build": "bun run build.ts",
     "dev": "vite",
-    "preview": "vite preview"
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:single": "bun run build.ts"
   },
   "dependencies": {
     "react": "^19.0.0",
