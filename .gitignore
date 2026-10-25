@@ -1,0 +1,40 @@
+# Dependencias
+node_modules/
+
+# Compilaciones
+dist/
+*.tsbuildinfo
+
+# Gestores de paquetes (conserva package-lock.json; ignora los de otros gestores si no los usas)
+bun.lockb
+bun.lock
+.pnpm-store/
+.yarn/*
+!.yarn/releases
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Variables de entorno (por si se añaden más adelante)
+.env
+.env.*
+!.env.example
+
+# Caché y herramientas
+.vite/
+.cache/
+.eslintcache
+coverage/
+
+# Editores y sistema operativo
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
